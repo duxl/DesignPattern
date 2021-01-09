@@ -14,7 +14,7 @@
 
 
 
-# [工厂模式](/src/a/b/c/factory)
+## [工厂模式](/src/a/b/c/factory)
 
 [简单工厂](/src/a/b/c/factory/simple) （如果新增实现，需要修改代码，违背开闭原则，但实际使用最多）
 
@@ -24,7 +24,7 @@
 
 
 
-# [构建者模式](/src/a/b/c/builder)
+## [构建者模式](/src/a/b/c/builder)
 
 **白话文解说什么是构建者模式：**
 
@@ -38,7 +38,7 @@
 
 
 
-# [原型模式](/src/a/b/c/prototype)（克隆模式）
+## [原型模式](/src/a/b/c/prototype)（克隆模式）
 
 原型模式的深克隆有两种方式实现：1使用Object的clone()方法；2使用序列化和反序列化
 
@@ -51,7 +51,7 @@ Message msg = handler.obtainMessage()
 
 
 
-# [适配器模式](/src/a/b/c/adapter)
+## [适配器模式](/src/a/b/c/adapter)
 
 
 
