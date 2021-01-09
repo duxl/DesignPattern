@@ -42,12 +42,16 @@
 
 原型模式的深克隆有两种方式实现：1使用Object的clone()方法；2使用序列化和反序列化
 
-ps：通过new一个对象很耗时，或者平凡的new对象和释放对象的情况，可以考虑使用原型模式
+ps：通过new一个对象很耗时，或者平凡的new对象后很快释放对象的情况，可以考虑使用原型模式
 
 ```java
-// Android中下面代码，内部就用了原型模式
+// Android中下面代码，内部就用了原型模式，复用Messge减少平凡创建对象
 Message msg = handler.obtainMessage()
 ```
+
+
+
+# [适配器模式](/src/a/b/c/adapter)
 
 
 
