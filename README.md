@@ -26,9 +26,28 @@
 
 # [构建者模式](/src/a/b/c/builder)
 
+**白话文解说什么是构建者模式：**
+
+ 一个大产品（飞船-AirShip）包含很多的小产品（引擎-Engine、逃逸塔-EscapeTower、轨道舱-OrbitalModule） 
+
+*1、先用一个构建器（AirShipBuilder）构建各个小产品，* 
+
+*2、然后将这个构建器传给组装器（AirShipDirector）进行组装* 
+
+*3、最后通过这个组装器拿到组装后的大产品*
 
 
-# 原型模式（克隆模式）
+
+# [原型模式](/src/a/b/c/prototype)（克隆模式）
+
+原型模式的深克隆有两种方式实现：1使用Object的clone()方法；2使用序列化和反序列化
+
+ps：通过new一个对象很耗时，或者平凡的new对象和释放对象的情况，可以考虑使用原型模式
+
+```java
+// Android中下面代码，内部就用了原型模式
+Message msg = handler.obtainMessage()
+```
 
 
 
