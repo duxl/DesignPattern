@@ -44,11 +44,6 @@
 
 ps：通过new一个对象很耗时，或者平凡的new对象后很快释放对象的情况，可以考虑使用原型模式
 
-```java
-// Android中下面代码，内部就用了原型模式，复用Messge减少平凡创建对象
-Message msg = handler.obtainMessage()
-```
-
 
 
 ## [适配器模式](/src/a/b/c/adapter)
@@ -90,4 +85,8 @@ M实现接口A，N持有M的引用同时也实现接口A，N实现接口A的的�
 ## [外观模式](/src/a/b/c/facade)
 
 就是面向对象编程的封装，一个功能需要调用很多方法步骤，把这些步骤封装到一个api中，这种方式就是外观模式
+
+
+
+## [享元模式](/src/a/b/c/flyweight)
 
