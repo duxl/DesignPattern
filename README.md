@@ -83,4 +83,4 @@ Message msg = handler.obtainMessage()
 
 **实现：**接口A、具体类M、装饰器N
 
-M实现接口A，N含有M的一个引用同时也实现接口A，N对接口A的实现中调用的M引用的实现
+M实现接口A，N持有M的引用同时也实现接口A，N实现接口A的的时候调用了M引用的实现
